@@ -5,8 +5,13 @@
 		"project_templates": [],
 		"file_templates": [
 			{
+			"name": "MVVM",
+			"url": "https://github.com/rayman-v/xcode_packageManager_extension/MVVM",
+			"description": ""
+			},
+			{
 			"name": "RealmModel",
-			"url": "https://github.com/rayman-v/xcode_packageManager_extension",
+			"url": "https://github.com/rayman-v/xcode_packageManager_extension/RealmModel",
 			"description": ""
 			}
 		]
