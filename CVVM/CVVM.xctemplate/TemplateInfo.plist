@@ -5,9 +5,9 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>MVVM files</string>
+	<string>CVVM files</string>
 	<key>Summary</key>
-	<string>viewController view viewModel</string>
+	<string>viewController view viewModel navigationController model</string>
 	<key>SortOrder</key>
 	<string>9</string>
 	<key>DefaultCompletionName</key>
@@ -29,6 +29,20 @@
 			<string>flie name</string>
 			<key>Type</key>
 			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>WithNavigationController</string>
+			<key>Name</key>
+			<string>NavigationController</string>
+			<key>Description</key>
+			<string>with NavigationController</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
 			<key>NotPersisted</key>
 			<true/>
 		</dict>
