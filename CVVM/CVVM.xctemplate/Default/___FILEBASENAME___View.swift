@@ -4,7 +4,7 @@ class ___FILEBASENAMEASIDENTIFIER___View: BaseView {
 
 	
 	
-    init() {
+    init(ctr: ___FILEBASENAMEASIDENTIFIER___Ctr) {
         super.init(frame: CGRectZero)
         
     }

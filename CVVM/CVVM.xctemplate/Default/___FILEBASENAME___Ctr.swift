@@ -2,18 +2,27 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___Ctr: BaseCtr {
 
-    let views = ___FILEBASENAMEASIDENTIFIER___View()
-    let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
+    private var rootview: ___FILEBASENAMEASIDENTIFIER___View!
+    private var model: ___FILEBASENAMEASIDENTIFIER___Model!
+
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        rootview = ___FILEBASENAMEASIDENTIFIER___View(ctr: self)
+        model = ___FILEBASENAMEASIDENTIFIER___Model()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        addRootView(views)
+        initDefault(rootview: rootview, model: model)
         initNav()
     }
-
+    
     func initNav() {
-    	navigationItem.title = ""
+        title = title ?? ""
     }
 
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

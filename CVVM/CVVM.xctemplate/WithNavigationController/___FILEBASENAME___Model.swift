@@ -1,6 +1,6 @@
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewModel: BaseViewModel {
+class ___FILEBASENAMEASIDENTIFIER___Model: BaseModel {
 	
 	
 	
